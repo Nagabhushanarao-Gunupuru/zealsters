@@ -36,7 +36,7 @@ class Zealsters extends Component{
                 <ul className="listContainer">
                     {personsData.map(each=>(
                         <PersonItem key={each.id} personsDetails = {each}/>
-                    ))}
+                    ))} 
                 </ul>
             </div>
         )
