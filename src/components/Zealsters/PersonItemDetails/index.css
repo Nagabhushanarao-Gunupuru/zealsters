@@ -1,0 +1,50 @@
+.personDetailsContainer{
+    background-image: radial-gradient(lightgreen,blue);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.personHeading{
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.person{
+    font-size: 50px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.button{
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    color: black;
+
+
+}
+
+@media screen and (max-width:576px) {
+    .personHeading{
+        font-size: 20px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    .person{
+        font-size: 25px;
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+    }
+}
