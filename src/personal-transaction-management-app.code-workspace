@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../personal-transaction-management-app"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "react-demo"
+	}
+}
